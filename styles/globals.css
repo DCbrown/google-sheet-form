@@ -16,11 +16,17 @@ a {
 }
 
 @media (prefers-color-scheme: dark) {
-  html {
-    color-scheme: dark;
-  }
   body {
-    color: white;
-    background: black;
+    color: black;
+    background: white;
   }
+}
+
+.bracketWrapper {
+  overflow: hidden;
+  background-color: #e1e1e1;
+  background-color: rgba(225, 225, 225, 0.9);
+  font-size: 12px;
+  padding: 40px 0;
+  width: 100%;
 }
