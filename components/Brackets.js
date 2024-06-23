@@ -591,6 +591,20 @@ const Brackets = () => {
       roundSixBracketTwoInput,
       roundChampBracketOneInput,
       roundChampBracketTwoInput,
+      roundTwoBracketOneInput,
+      roundTwoBracketTwoInput,
+      roundTwoBracketThreeInput,
+      roundTwoBracketFourInput,
+      roundThreeBracketOneInput,
+      roundThreeBracketTwoInput,
+      roundFiveBracketOneInput,
+      roundFiveBracketTwoInput,
+      roundFiveBracketThreeInput,
+      roundFiveBracketFourInput,
+      roundSixBracketOneInput,
+      roundSixBracketTwoInput,
+      roundChampBracketOneInput,
+      roundChampBracketTwoInput,
     };
 
     const response = await fetch("/api/submit", {
@@ -740,7 +754,7 @@ const Brackets = () => {
                       selectedTeam={roundTwoBracketOneInput}
                       handleChange={handleChange1}
                     />
-                    <span className={styles.score}>25 Points</span>
+                    <span className={styles.score}>75 Points</span>
                   </div>
                 </li>
                 <li className={classNames(styles.team, styles.teamBottom)}>
@@ -750,7 +764,7 @@ const Brackets = () => {
                     selectedTeam={roundTwoBracketTwoInput}
                     handleChange={handleChange2}
                   />
-                  <span className={styles.score}>25 Points</span>
+                  <span className={styles.score}>75 Points</span>
                 </li>
               </ul>
               <ul className={styles.matchup}>
@@ -760,7 +774,7 @@ const Brackets = () => {
                     selection={roundTwoBracketThreeSelection}
                     handleChange={handleChange3}
                   />
-                  <span className={styles.score}>25 Points</span>
+                  <span className={styles.score}>75 Points</span>
                 </li>
                 <li className={classNames(styles.team, styles.teamBottom)}>
                   <TeamSelector
@@ -768,7 +782,7 @@ const Brackets = () => {
                     selection={roundTwoBracketFourSelection}
                     handleChange={handleChange4}
                   />
-                  <span className={styles.score}>25 Points</span>
+                  <span className={styles.score}>75 Points</span>
                 </li>
               </ul>
             </div>
@@ -784,7 +798,7 @@ const Brackets = () => {
                     selection={roundThreeBracketOneSelection}
                     handleChange={handleChange5}
                   />
-                  <span className={styles.score}>25 Points</span>
+                  <span className={styles.score}>100 Points</span>
                 </li>
                 <li className={classNames(styles.team, styles.teamBottom)}>
                   <TeamSelector
@@ -792,7 +806,7 @@ const Brackets = () => {
                     selection={roundThreeBracketTwoSelection}
                     handleChange={handleChange6}
                   />
-                  <span className={styles.score}>25 Points</span>
+                  <span className={styles.score}>100 Points</span>
                 </li>
               </ul>
             </div>
@@ -876,7 +890,7 @@ const Brackets = () => {
                     selection={roundSixBracketOneSelection}
                     handleChange={handleChange9}
                   />
-                  <span className={styles.score}>25 Points</span>
+                  <span className={styles.score}>100 Points</span>
                 </li>
                 <li className={classNames(styles.team, styles.teamBottom)}>
                   <TeamSelector
@@ -884,7 +898,7 @@ const Brackets = () => {
                     selection={roundSixBracketTwoSelection}
                     handleChange={handleChange10}
                   />
-                  <span className={styles.score}>25 Points</span>
+                  <span className={styles.score}>100 Points</span>
                 </li>
               </ul>
             </div>
@@ -912,7 +926,7 @@ const Brackets = () => {
                     selection={roundFiveBracketOneSelection}
                     handleChange={handleChange11}
                   />
-                  <span className={styles.score}>25 Points</span>
+                  <span className={styles.score}>75 Points</span>
                 </li>
                 <li className={classNames(styles.team, styles.teamBottom)}>
                   <TeamSelector
@@ -920,7 +934,7 @@ const Brackets = () => {
                     selection={roundFiveBracketTwoSelection}
                     handleChange={handleChange12}
                   />
-                  <span className={styles.score}>25 Points</span>
+                  <span className={styles.score}>75 Points</span>
                 </li>
               </ul>
               <ul className={styles.matchup}>
@@ -930,7 +944,7 @@ const Brackets = () => {
                     selection={roundFiveBracketThreeSelection}
                     handleChange={handleChange13}
                   />
-                  <span className={styles.score}>25 Points</span>
+                  <span className={styles.score}>75 Points</span>
                 </li>
                 <li className={classNames(styles.team, styles.teamBottom)}>
                   <TeamSelector
@@ -938,7 +952,7 @@ const Brackets = () => {
                     selection={roundFiveBracketFourSelection}
                     handleChange={handleChange14}
                   />
-                  <span className={styles.score}>25 Points</span>
+                  <span className={styles.score}>75 Points</span>
                 </li>
               </ul>
             </div>

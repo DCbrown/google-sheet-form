@@ -39,3 +39,9 @@ a {
   text-align: center;
   height: 40px;
 }
+
+.logo {
+  margin: 5px 0;
+  max-height: 125px;
+  max-width: 85px;
+}

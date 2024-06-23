@@ -16,6 +16,7 @@ import AdbIcon from "@mui/icons-material/Adb";
 import Image from "next/image";
 import ModalForm from "./ModalForm";
 import Link from "next/link";
+import styles from "../styles/playoff.module.css";
 
 // "1st & Goal", "TL320 Bingo" sub menu
 
@@ -200,15 +201,12 @@ const Navbar = () => {
           </Box>
           <Box sx={{ flexGrow: 2, display: { md: "flex" } }}>
             <Image
-              style={{
-                margin: "5px 0",
-                maxHeight: "125px",
-                maxWidth: "85px",
-              }}
+              className={styles.logo}
               src="/img/theLeagueIcon.png"
               alt="me"
               width={125}
               height={125}
+              layout={undefined}
             />
           </Box>
           <Box sx={{ flexGrow: 0 }}>
