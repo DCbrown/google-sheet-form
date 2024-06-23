@@ -30,3 +30,12 @@ a {
   padding: 40px 0;
   width: 100%;
 }
+.roundDetails {
+  font-family: "Roboto Condensed", sans-serif;
+  font-size: 18px;
+  font-weight: bold;
+  color: #2c7399;
+  text-transform: uppercase;
+  text-align: center;
+  height: 40px;
+}

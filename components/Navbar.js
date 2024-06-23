@@ -202,15 +202,13 @@ const Navbar = () => {
             <Image
               style={{
                 margin: "5px 0",
-              }}
-              sx={{
-                display: { xs: "none", md: "flex" },
-                mr: 1,
+                maxHeight: "125px",
+                maxWidth: "85px",
               }}
               src="/img/theLeagueIcon.png"
               alt="me"
-              width="125"
-              height="125"
+              width={125}
+              height={125}
             />
           </Box>
           <Box sx={{ flexGrow: 0 }}>

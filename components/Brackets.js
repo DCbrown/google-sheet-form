@@ -577,6 +577,20 @@ const Brackets = () => {
       name,
       email,
       phone,
+      roundTwoBracketOneInput,
+      roundTwoBracketTwoInput,
+      roundTwoBracketThreeInput,
+      roundTwoBracketFourInput,
+      roundThreeBracketOneInput,
+      roundThreeBracketTwoInput,
+      roundFiveBracketOneInput,
+      roundFiveBracketTwoInput,
+      roundFiveBracketThreeInput,
+      roundFiveBracketFourInput,
+      roundSixBracketOneInput,
+      roundSixBracketTwoInput,
+      roundChampBracketOneInput,
+      roundChampBracketTwoInput,
     };
 
     const response = await fetch("/api/submit", {
@@ -591,9 +605,7 @@ const Brackets = () => {
     const content = await response.json();
 
     console.log(content);
-    alert(content.data.tableRange);
-
-    writeToSpreadsheet(values);
+    alert(content.data);
   };
 
   return (
@@ -711,7 +723,9 @@ const Brackets = () => {
               <div className={styles.BYE}>
                 {documentDataAFC && (
                   <>
-                    {documentDataAFC.bye} {documentDataAFC.team}
+                    <h2>
+                      {documentDataAFC.bye} {documentDataAFC.team}
+                    </h2>
                     <h3>BYE</h3>
                   </>
                 )}

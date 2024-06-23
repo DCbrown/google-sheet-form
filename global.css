@@ -387,5 +387,13 @@ body {
     font-size: 18px;
   }
 }
-
+.round-details {
+  font-family: "Roboto Condensed", sans-serif;
+  font-size: 18px;
+  font-weight: bold;
+  color: #2c7399;
+  text-transform: uppercase;
+  text-align: center;
+  height: 40px;
+}
 /* other styles */
